@@ -1,53 +1,56 @@
 import React from 'react';
 import download from "../assets/download.png"
 import star from "../assets/star.png"
+ 
 
-const Card = () => {
+const Card = ({ item }) => {
     return (
-        <div>
-             
- <div class="max-w-6xl mx-auto p-4 md:p-6">
-    
-    <h2 class="text-3xl md:text-4xl font-bold text-sky-800 text-center mb-6">
-      Trending Apps
-    </h2>
-
-     
-    <div class="grid gap-4 sm:gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-
- 
-
-
- 
-      <div class="  rounded-xl border p-4 border-slate-200 overflow-hidden">
-
-        <div class="h-40 rounded-xl bg-slate-200">
-
-        </div>
-
-        <div class="">
-          <div class="flex justify-around mt-5 ">
-            <img className='w-15 mr-30' src={download} alt="" />
-            <img className='h-7 w-13'  src={star} alt="" />
-          </div>
-          <p class="mt-2 text-sm font-semibold text-slate-900">
-            Focus Plant: Pomodoro Forest
-          </p>
-        </div>
         
-      </div>
+<div className=" ">
+            <div className="max-w-6xl mx-auto p-4 md:p-6">
+ 
 
+                
 
-  </div>
-  </div>
+                    <div className="rounded-xl border p-4 border-slate-200 overflow-hidden">
 
- <div className='flex justify-center items-center mb-6'>
-<a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-[white]"> Contribute</a>
- </div>
+                        {/* dynamic image */}
+                        <img
+                            src={item.image}
+                            alt={item.title}
+                            className="h-40 w-full rounded-xl object-cover"
+                        />
 
+                        <div>
+                            {/* dynamic downloads + rating */}
+                            
+                            <div className="flex justify-around mt-5 gap-19">
+                                <div className="flex items-center gap-1">
+                                    <img className="w-15" src={download} alt=""/>
+                                    <span className="text-sm font-semibold">
+                                        {item.downloads.toLocaleString()}
+                                    </span>
+                                </div>
 
-        </div>
+                                <div className="flex items-center gap-1">
+                                    <img className="w-12" src={star} alt=""/>
+                                    <span className="text-sm font-semibold">
+                                        {item.ratingAvg}
+                                    </span>
+                                </div>
+                            </div>
+
+                            {/* dynamic title */}
+                            <p className="mt-2 text-sm font-semibold text-slate-900">
+                                {item.title}
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        
     );
 };
-
 export default Card;

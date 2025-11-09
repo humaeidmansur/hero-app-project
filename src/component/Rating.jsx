@@ -2,7 +2,8 @@ import React from 'react';
 
 const Rating = () => {
     return (
-       <footer className="footer footer-horizontal footer-center  bg-gradient-to-r from-[#632EE3] to-[#9F62F2]  text-primary-content p-10">
+      <div>
+<div className="footer footer-horizontal footer-center  bg-gradient-to-r from-[#632EE3] to-[#9F62F2]  text-primary-content p-10">
   <aside>
  
     <p className="font-bold text-[20px] md:text-[30px]">
@@ -31,7 +32,16 @@ const Rating = () => {
       </a>
     </div>
   </nav>
-</footer>
+
+</div>
+    <h2 class="text-3xl md:text-4xl font-bold text-sky-800 text-center mb-6 mt-10">
+      Trending Apps
+    </h2>
+    <p className='flex justify-center items-center text-center'>Explore All Trending Apps on the Market developed by us</p>
+      </div>
+
+ 
+
     );
 };
 

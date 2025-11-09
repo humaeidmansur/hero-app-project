@@ -1,13 +1,21 @@
- import './App.css'
- import logo from "./assets/logo.png"
- import github from "./assets/github.png"
+import './App.css'
+import logo from "./assets/logo.png"
+import github from "./assets/github.png"
 import Banner from './component/Banner'
 import Rating from './component/Rating'
 import Card from './component/Card'
 import Footer from './component/Footer'
+import { useEffect, useState } from 'react'
 
 function App() {
  
+    const [apps, setApps] = useState([]);
+
+  useEffect(() => {
+    fetch("/Frontpage.json")  // <-- MUST match your real file name
+      .then((res) => res.json())
+      .then((data) => setApps(data));
+  }, []);
 
   return (
     <>
@@ -43,12 +51,20 @@ function App() {
 </div>
    <Banner></Banner>
    <Rating></Rating>
-   <Card></Card>
+
+       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        
+      {apps.map((item) => (
+        <Card key={item.id} item={item} />
+      ))}
+      
+      </div>
+
    <Footer></Footer>
   
     </>
     
-  )
+  );
 }
 
 export default App

@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?auto=format&fit=crop&w=800&q=80",
+    "title": "Focusify Pomodoro",
+    "companyName": "Wavelabs Studio",
+    "id": 1,
+    "description": "A clean and distraction-free Pomodoro timer designed to boost productivity.",
+    "size": 48,
+    "reviews": 12450,
+    "ratingAvg": 4.8,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 820 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 7800 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=800&q=80",
+    "title": "TaskNest Organizer",
+    "companyName": "ShiftCode Apps",
+    "id": 2,
+    "description": "A daily task and habit tracker built for simple organization.",
+    "size": 52,
+    "reviews": 9800,
+    "ratingAvg": 4.6,
+    "downloads": 7400000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 430 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3290 },
+      { "name": "5 star", "count": 5070 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&w=800&q=80",
+    "title": "StudyMode Timer",
+    "companyName": "BrightDesk Labs",
+    "id": 3,
+    "description": "A minimalistic study timer with focus analytics.",
+    "size": 44,
+    "reviews": 11200,
+    "ratingAvg": 4.7,
+    "downloads": 8300000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 980 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 6510 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=800&q=80",
+    "title": "Pomocat – Cute Pomodoro",
+    "companyName": "MeowWorks",
+    "id": 4,
+    "description": "Adorable cat-themed Pomodoro with gentle sounds.",
+    "size": 39,
+    "reviews": 7650,
+    "ratingAvg": 4.5,
+    "downloads": 5100000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 1120 },
+      { "name": "4 star", "count": 2680 },
+      { "name": "5 star", "count": 3200 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&w=800&q=80",
+    "title": "Time Planner Pro",
+    "companyName": "Orbit Tools",
+    "id": 5,
+    "description": "Plan your day with timelines, routines, and reminders.",
+    "size": 61,
+    "reviews": 13500,
+    "ratingAvg": 4.4,
+    "downloads": 6200000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 760 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4600 },
+      { "name": "5 star", "count": 3520 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=800&q=80",
+    "title": "Morning Habits",
+    "companyName": "Dawn Labs",
+    "id": 6,
+    "description": "Build sustainable morning routines with streaks and insights.",
+    "size": 42,
+    "reviews": 8800,
+    "ratingAvg": 4.3,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 430 },
+      { "name": "2 star", "count": 610 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 2460 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?auto=format&fit=crop&w=800&q=80",
+    "title": "Focus Plant",
+    "companyName": "GreenPixel",
+    "id": 7,
+    "description": "Grow a virtual garden by staying focused with sessions.",
+    "size": 47,
+    "reviews": 15400,
+    "ratingAvg": 4.6,
+    "downloads": 9200000,
+    "ratings": [
+      { "name": "1 star", "count": 380 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 8300 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?auto=format&fit=crop&w=800&q=80",
+    "title": "Alarmy – Smart Clock",
+    "companyName": "WakeUp Inc.",
+    "id": 8,
+    "description": "An alarm clock with missions to get you out of bed.",
+    "size": 58,
+    "reviews": 20100,
+    "ratingAvg": 4.2,
+    "downloads": 10500000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 8300 }
+    ]
+  }
+]
