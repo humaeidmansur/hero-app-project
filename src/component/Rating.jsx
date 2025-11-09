@@ -6,7 +6,7 @@ const Rating = () => {
   <aside>
  
     <p className="font-bold text-[20px] md:text-[30px]">
-    Trusted by Millions, Built for You  </p>
+    Trusted by Millions, Built for You </p>
 
      
 

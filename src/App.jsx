@@ -3,6 +3,8 @@
  import github from "./assets/github.png"
 import Banner from './component/Banner'
 import Rating from './component/Rating'
+import Card from './component/Card'
+import Footer from './component/Footer'
 
 function App() {
  
@@ -41,6 +43,9 @@ function App() {
 </div>
    <Banner></Banner>
    <Rating></Rating>
+   <Card></Card>
+   <Footer></Footer>
+  
     </>
     
   )
