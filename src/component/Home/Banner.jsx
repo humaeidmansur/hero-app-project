@@ -1,7 +1,8 @@
 import React from 'react';
-import banner from "../assets/hero.png"
-import play_store from "../assets/play_store.png"
-import app_store from "../assets/App.png"
+import banner from "../../assets/hero.png"
+import play_store from "../../assets/play_store.png"
+import app_store from "../../assets/App.png"
+
 
 const Banner = () => {
     return (
@@ -20,7 +21,9 @@ const Banner = () => {
 
                 <img className='mt-5' src={banner} alt="" />
               </div>
+              
         </div>
+        
     );
 };
 

@@ -1,12 +1,9 @@
 import React from 'react';
- import logo from "../assets/logo.png"
+ import logo from "../../assets/logo.png"
 
 const footer = () => {
     return (
 <div>
- <div className='flex justify-center items-center mb-6'>
-<a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-[white]"> Contribute</a>
- </div>
 
 <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 justify-between">
  
