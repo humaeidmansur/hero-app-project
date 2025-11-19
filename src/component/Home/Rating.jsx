@@ -34,10 +34,13 @@ const Rating = () => {
   </nav>
 
 </div>
-    <h2 class="text-3xl md:text-4xl font-bold text-sky-800 text-center mb-7 mt-10">
+<div>
+    <h2 className="text-3xl md:text-4xl font-bold text-sky-800 text-center mb-7 mt-10">
       Trending Apps
     </h2>
     <p className='flex justify-center items-center text-center'>Explore All Trending Apps on the Market developed by us</p>
+</div>
+
 
      <div className='flex justify-center items-center mb-6 mt-6'>
 <a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-[white]"> Contribute</a>

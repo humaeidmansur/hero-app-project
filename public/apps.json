@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1505238680356-667803448bb6?auto=format&fit=crop&w=800&q=80",
+    "title": "MindStream Meditation",
+    "companyName": "CalmSphere Labs",
+    "id": 1,
+    "description": "Guided meditation and breathing exercises to help improve mindfulness.",
+    "size": 42,
+    "reviews": 15400,
+    "ratingAvg": 4.7,
+    "downloads": 8200000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 9870 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "title": "CodeFlow Editor",
+    "companyName": "DevNexus Tools",
+    "id": 2,
+    "description": "A lightweight mobile code editor with syntax highlighting for 20+ languages.",
+    "size": 58,
+    "reviews": 20400,
+    "ratingAvg": 4.5,
+    "downloads": 6500000,
+    "ratings": [
+      { "name": "1 star", "count": 510 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 12670 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?auto=format&fit=crop&w=800&q=80",
+    "title": "FitPulse Tracker",
+    "companyName": "MoveTech Innovations",
+    "id": 3,
+    "description": "An intuitive fitness tracking app with workout planning and calorie logging.",
+    "size": 61,
+    "reviews": 18900,
+    "ratingAvg": 4.4,
+    "downloads": 7200000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 7680 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=800&q=80",
+    "title": "Travelio Guide",
+    "companyName": "SkyPath Global",
+    "id": 4,
+    "description": "A smart travel planner with offline maps and curated recommendations.",
+    "size": 70,
+    "reviews": 11200,
+    "ratingAvg": 4.3,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 640 },
+      { "name": "2 star", "count": 730 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 4330 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=800&q=80",
+    "title": "NoteCraft",
+    "companyName": "Paperwave Studios",
+    "id": 5,
+    "description": "A minimalist note-taking app with markdown support and cloud sync.",
+    "size": 37,
+    "reviews": 9300,
+    "ratingAvg": 4.8,
+    "downloads": 8800000,
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 5220 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1481277542470-605612bd2d61?auto=format&fit=crop&w=800&q=80",
+    "title": "PhotoVerse Editor",
+    "companyName": "PixelForge Media",
+    "id": 6,
+    "description": "A full-featured photo editor with filters, retouching, and AI enhancements.",
+    "size": 95,
+    "reviews": 30200,
+    "ratingAvg": 4.6,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 4300 },
+      { "name": "4 star", "count": 8900 },
+      { "name": "5 star", "count": 15100 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80",
+    "title": "BudgetHive",
+    "companyName": "Pennywise Digital",
+    "id": 7,
+    "description": "A smart budgeting tool that categorizes expenses and tracks monthly trends.",
+    "size": 44,
+    "reviews": 14500,
+    "ratingAvg": 4.7,
+    "downloads": 6900000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4100 },
+      { "name": "5 star", "count": 8180 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+    "title": "SleepNest",
+    "companyName": "DreamFlow Apps",
+    "id": 8,
+    "description": "Sleep soundscapes, white noise, and bedtime tracking for healthier nights.",
+    "size": 55,
+    "reviews": 16700,
+    "ratingAvg": 4.9,
+    "downloads": 9100000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 740 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 11320 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80",
+    "title": "LangMaster Pro",
+    "companyName": "EduSpark Global",
+    "id": 9,
+    "description": "A language-learning app featuring AI-powered speaking practice.",
+    "size": 84,
+    "reviews": 24500,
+    "ratingAvg": 4.5,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 1300 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3300 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 11200 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+    "title": "CryptoWatch",
+    "companyName": "BlockSight Analytics",
+    "id": 10,
+    "description": "Real-time crypto charts, portfolio tracking, and price alerts.",
+    "size": 68,
+    "reviews": 17500,
+    "ratingAvg": 4.2,
+    "downloads": 6400000,
+    "ratings": [
+      { "name": "1 star", "count": 1700 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4100 },
+      { "name": "5 star", "count": 5300 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
+    "title": "Artify Sketch",
+    "companyName": "CreativeHub Studio",
+    "id": 11,
+    "description": "A simple yet powerful sketching app with layers and pressure support.",
+    "size": 73,
+    "reviews": 15900,
+    "ratingAvg": 4.6,
+    "downloads": 8700000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 9780 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "title": "CodeFlow Editor",
+    "companyName": "DevNexus Tools",
+    "id": 12,
+    "description": "A lightweight mobile code editor with syntax highlighting for 20+ languages.",
+    "size": 58,
+    "reviews": 20400,
+    "ratingAvg": 4.5,
+    "downloads": 6500000,
+    "ratings": [
+      { "name": "1 star", "count": 510 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 12670 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "title": "CodeFlow Editor",
+    "companyName": "DevNexus Tools",
+    "id": 13,
+    "description": "A lightweight mobile code editor with syntax highlighting for 20+ languages.",
+    "size": 58,
+    "reviews": 20400,
+    "ratingAvg": 4.5,
+    "downloads": 6500000,
+    "ratings": [
+      { "name": "1 star", "count": 510 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 12670 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "title": "RideRoute",
+    "companyName": "UrbanMove Mobility",
+    "id": 14,
+    "description": "Real-time public transport information with delay alerts and route planning.",
+    "size": 65,
+    "reviews": 12000,
+    "ratingAvg": 4.1,
+    "downloads": 4300000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 3800 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+    "title": "AquaLog",
+    "companyName": "HydroSense",
+    "id": 15,
+    "description": "A hydration tracker that reminds users to drink water throughout the day.",
+    "size": 29,
+    "reviews": 7700,
+    "ratingAvg": 4.8,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 540 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 4740 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=800&q=80",
+    "title": "SecureVault",
+    "companyName": "LockBox Security",
+    "id": 16,
+    "description": "A password manager with encrypted cloud backup and autofill support.",
+    "size": 39,
+    "reviews": 13200,
+    "ratingAvg": 4.9,
+    "downloads": 7800000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 9050 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+    "title": "AquaLog",
+    "companyName": "HydroSense",
+    "id": 17,
+    "description": "A hydration tracker that reminds users to drink water throughout the day.",
+    "size": 29,
+    "reviews": 7700,
+    "ratingAvg": 4.8,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 540 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 4740 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "title": "CodeFlow Editor",
+    "companyName": "DevNexus Tools",
+    "id": 18,
+    "description": "A lightweight mobile code editor with syntax highlighting for 20+ languages.",
+    "size": 58,
+    "reviews": 20400,
+    "ratingAvg": 4.5,
+    "downloads": 6500000,
+    "ratings": [
+      { "name": "1 star", "count": 510 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 12670 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+    "title": "AquaLog",
+    "companyName": "HydroSense",
+    "id": 19,
+    "description": "A hydration tracker that reminds users to drink water throughout the day.",
+    "size": 29,
+    "reviews": 7700,
+    "ratingAvg": 4.8,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 540 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 4740 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80",
+    "title": "FocusPanda Kids",
+    "companyName": "BrightMind Learning",
+    "id": 20,
+    "description": "Educational games designed to improve focus and cognition in kids.",
+    "size": 53,
+    "reviews": 9600,
+    "ratingAvg": 4.8,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 660 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 6110 }
+    ]
+  }
+]

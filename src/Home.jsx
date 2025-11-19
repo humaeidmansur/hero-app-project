@@ -18,17 +18,17 @@ const Home = () => {
         console.error("Failed to load Frontpage.json", err);})
       ;
   }, []);
+  
   return (
     <>
       <Banner />
-      
+
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-0 sm:p-22">
-        
-      {apps.map((item) => (
-        <Card key={item.id} item={item} />
-      ))}
+         {apps.map((item) => (
+
+      <Card key={item.id} item={item} />
       
-       
+      ))}
       </div>
 
       <Rating />
