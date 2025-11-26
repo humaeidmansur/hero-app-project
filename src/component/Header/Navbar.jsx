@@ -2,6 +2,8 @@ import React from "react";
 import logo from "../../assets/logo.png";
 import github from "../../assets/github.png";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
   const linkClasses = ({ isActive }) =>
@@ -57,11 +59,14 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+<Link to="/" className="flex items-center gap-2">
+  <img src={logo} className="w-8 h-8" alt="HERO.IO logo" />
+  <span className="btn btn-ghost text-xl bg-gradient-to-r from-[#632EE3] to-[#632EE3] bg-clip-text text-transparent">
+    HERO.IO
+  </span>
+</Link>
 
-        <img src={logo} className="w-8 h-8" alt="HERO.IO logo" />
-        <span className="btn btn-ghost text-xl bg-gradient-to-r from-[#632EE3] to-[#632EE3] bg-clip-text text-transparent">
-          HERO.IO
-        </span>
+
       </div>
 
       {/* CENTER – desktop menu */}
@@ -87,7 +92,7 @@ const Navbar = () => {
 
      
       <div className="navbar-end mr-0 md:mr-10">
-        <button className="btn bg-gradient-to-r from-[#632EE3] to-[#632EE3] w-27 h-10 sm:w-30 text-white">
+        <button className="btn bg-gradient-to-r from-[#632EE3] to-[#632EE3] w-27 h-10 sm:w-30 text-white"  onClick={() => window.open("https://github.com/humaeidmansur/hero-app-project.git", "_blank")}>
           <img src={github} alt="" />
           Contribute
         </button>

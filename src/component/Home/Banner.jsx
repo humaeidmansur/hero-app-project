@@ -14,10 +14,30 @@ const Banner = () => {
                 <p className='flex justify-center items-center text-center mt-5 mb-5'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.
                     <br/> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
              
-                <div className=" mr-0 md:mr-10 flex justify-center items-center gap-5">
-                  <a className="btn"><img src={play_store} alt=""/>Contribute</a>
-                  <a className="btn"><img src={app_store} alt=""/>Contribute</a>
-                </div>
+<div className="mr-0 md:mr-10 flex justify-center items-center gap-5">
+
+  <a
+    href="https://play.google.com/store/games?hl=en"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn"
+  >
+    <img src={play_store} alt="" />
+    Play Store
+  </a>
+
+  <a
+    href="https://www.apple.com/app-store/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn"
+  >
+    <img src={app_store} alt="" />
+    App Store
+  </a>
+
+</div>
+
 
                 <img className='mt-5' src={banner} alt="" />
               </div>

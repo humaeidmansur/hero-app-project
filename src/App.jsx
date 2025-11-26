@@ -1,12 +1,16 @@
 import './App.css'
 import { useEffect, useState } from 'react';
 import Appdata from './component/Appdata/Appdata';
+import NoApp from "./assets/App-Error.png"
+import { Link, useNavigate } from "react-router-dom";
 
 
 function App() {
  
-      const [app, setApps] = useState([]);
- 
+  const [apps, setApps] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+   const navigate = useNavigate();
+
    useEffect(() => {
      fetch("/public/apps.json") 
        .then((res) => res.json())
@@ -15,6 +19,10 @@ function App() {
          console.error("Failed to load Frontpage.json", err);})
        ;
    }, []);
+
+  const filteredApps = apps.filter((application) =>
+    application.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <>
@@ -34,7 +42,7 @@ function App() {
   
 
 
-  <h1 className='font-bold text-xl mb-4 ml-25'>(132) Apps Found</h1>
+  <h1 className='font-bold text-xl mb-4 ml-25'>({filteredApps.length}) Apps Found</h1>
 
   <label className="input mr-25">
   <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -49,36 +57,45 @@ function App() {
       <path d="m21 21-4.3-4.3"></path>
     </g>
   </svg>
-  <input type="search" required placeholder="Search" />
+  <input type="search" required placeholder="Search" value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}/>
 </label>
 
 </div>
-
-
-
 </div>
 
       
+        {filteredApps.length === 0 ? (
 
+         <>
+          <div className="p-5 flex justify-center items-center  text-[#627382]">
+            <img src={NoApp} className='flex justify-center items-center' alt="" />
+          </div>
+
+<div className='flex justify-center items-center mb-6'>
+<Link to="/apps">    
+<button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-[white]" onClick={() => {
+        setSearchTerm("");
+        navigate("/apps");
+      }}> Go back </button>
+</Link>
+</div>
+        </>
+
+        ) : (
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-0 sm:p-22">
-         {app.map((application) => (
+         {filteredApps.map((application) => (
 
       <Appdata key={application.id} application={application} />
       
       ))}
-      </div>
-
-         
 
       
-      
-      
-</div>
+      </div>   
+        )}
 
-  
-
+ </div>
     </>
-    
   );
 }
 

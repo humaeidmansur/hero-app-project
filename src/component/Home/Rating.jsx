@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Rating = () => {
     return (
@@ -42,9 +43,14 @@ const Rating = () => {
 </div>
 
 
-     <div className='flex justify-center items-center mb-6 mt-6'>
-<a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-[white]"> Contribute</a>
- </div>
+<div className='flex justify-center items-center mb-6 mt-6'>
+  <Link
+  to="/apps"
+  className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white "
+>
+  Show All
+</Link>
+</div>
 
       </div>
 

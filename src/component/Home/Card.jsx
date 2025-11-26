@@ -1,6 +1,7 @@
 import React from 'react';
 import download from "../../assets/download.png"
 import star from "../../assets/star.png"
+import { Link } from "react-router-dom";
  
 
 const Card = ({ item }) => {
@@ -12,7 +13,9 @@ const Card = ({ item }) => {
   }
 
   return (
-    <div className="">
+
+<Link to="/apps"  >
+  <div className="">
       <div className="max-w-6xl mx-auto p-4 md:p-6">
         <div className="rounded-xl border p-4 border-slate-200 overflow-hidden">
            
@@ -49,6 +52,8 @@ const Card = ({ item }) => {
         </div>
       </div>
     </div>
+</Link>
+  
   );
 };
 
