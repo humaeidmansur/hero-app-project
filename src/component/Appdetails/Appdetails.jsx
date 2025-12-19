@@ -17,6 +17,12 @@ const Appdetails = () => {
   const { id } = useParams();
   const [app, setApp] = useState(null);
   const [loading, setLoading] = useState(true);
+ const [isInstalled, setIsInstalled] = useState(false);
+const showInstallAlert = (appName) => {
+  alert(`${appName} has been installed successfully!`);
+};
+
+
 
   // Later you can build this from `app`, but for now it's static:
   const data = [
@@ -41,8 +47,40 @@ const Appdetails = () => {
       });
   }, [id]);
 
+  useEffect(() => {
+    if (!app) return;
+
+    const installedApps =
+      JSON.parse(localStorage.getItem("installedApps")) || [];
+
+    setIsInstalled(installedApps.includes(app.id));
+  }, [app]);
+
+ 
+  const handleInstall = () => {
+    if (!app) return;
+
+    const installedApps =
+      JSON.parse(localStorage.getItem("installedApps")) || [];
+
+    if (!installedApps.includes(app.id)) {
+      installedApps.push(app.id);
+      localStorage.setItem("installedApps", JSON.stringify(installedApps));
+
+       
+      showInstallAlert(app.title);
+
+    }
+
+    setIsInstalled(true);
+  };
+
   if (loading) {
     return <div className="p-4">Loading...</div>;
+  }
+
+  if (!app) {
+    return <div className="p-4">App not found</div>;
   }
 
   return (
@@ -88,8 +126,9 @@ const Appdetails = () => {
               </div>
             </div>
 
-            <button className="mt-6 bg-[#00D390] text-white font-semibold px-5 py-2 rounded-lg hover:bg-green-600">
-              Install Now ({app.size} MB)
+            <button  onClick={handleInstall}
+              disabled={isInstalled} className="mt-6 bg-[#00D390] text-white font-semibold px-5 py-2 rounded-lg hover:bg-green-600">
+                  {isInstalled ? "Installed" : `Install Now (${app.size} MB)`}
             </button>
           </div>
         </div>
