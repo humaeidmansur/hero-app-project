@@ -1,42 +1,27 @@
-import React, { useEffect, useState } from "react";
-import { Outlet, useNavigation } from "react-router-dom";
+import React from "react";
+import { Outlet , useNavigation} from "react-router-dom";
 import Navbar from "../component/Header/Navbar";
 import Footer from "../component/Footer/Footer";
 
-const Root = () => {
+export default function Root() {
   const navigation = useNavigation();
-  const routeLoading = navigation.state === "loading";
-
-  const [manualLoading, setManualLoading] = useState(false);
-
-  // ✅ Make global functions available everywhere
-  useEffect(() => {
-    window.showGlobalLoader = () => setManualLoading(true);
-    window.hideGlobalLoader = () => setManualLoading(false);
-
-    return () => {
-      delete window.showGlobalLoader;
-      delete window.hideGlobalLoader;
-    };
-  }, []);
-
-  const isLoading = routeLoading || manualLoading;
-
+  const isLoading = navigation.state === "loading";
   return (
-    <>
+    <div>
       <Navbar />
 
-      {/* ✅ Global loader overlay */}
+      {/* Loader overlay while navigating */}
       {isLoading && (
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/30 backdrop-blur-sm">
-          <span className="loading loading-ring loading-xl text-[#00D390]"></span>
+         <div className="fixed inset-0 z-50 flex justify-center bg-base-200/70">
+<span className="loading loading-bars loading-xl"></span>
         </div>
       )}
 
-      <Outlet />
-      <Footer />
-    </>
-  );
-};
+      <div className="min-h-[80vh]">
+        <Outlet />
+      </div>
 
-export default Root;
+      <Footer />
+    </div>
+  );
+}

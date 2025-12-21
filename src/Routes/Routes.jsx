@@ -9,32 +9,46 @@ import Appdetails from "../component/Appdetails/Appdetails";
 
 
  
-
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
-    errorElement: <ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        path: "/",
-        Component:Home
-        
+        Component: Home,
+        loader: async () => {
+           
+          await new Promise((r) => setTimeout(r, 700));
+          return null;
+        },
       },
       {
-        path: "/apps",
-        Component: App
+        path: "apps",
+        Component: App,
+        loader: async () => {
+          await new Promise((r) => setTimeout(r, 700));
+          return null;
+        },
       },
       {
-        path: "/apps/:id",       
-        Component: Appdetails
+        path: "apps/:id",
+        Component: Appdetails,
+        loader: async ({ params }) => {
+          await new Promise((r) => setTimeout(r, 700));
+           
+          return params.id;
+        },
       },
       {
-        path: "/installation",
-        Component: Installation
-      }
-      
+        path: "installation",
+        Component: Installation,
+        loader: async () => {
+          await new Promise((r) => setTimeout(r, 700));
+          return null;
+        },
+      },
     ],
   },
 ]);
