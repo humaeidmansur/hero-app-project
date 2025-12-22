@@ -11,7 +11,7 @@ function App() {
 
   // Load apps once
   useEffect(() => {
-    fetch("/public/apps.json")
+    fetch("/apps.json")
       .then((res) => res.json())
       .then((data) => setApps(data))
       .catch((err) => {
@@ -19,7 +19,7 @@ function App() {
       });
   }, []);
 
-  // Filter apps by search term
+  
   const filteredApps = apps.filter((application) =>
     application.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -99,7 +99,7 @@ function App() {
             </div>
           </>
         ) : (
-          // Apps grid
+           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-0 sm:p-22">
             {filteredApps.map((application) => (
               <Appdata key={application.id} application={application} />

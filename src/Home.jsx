@@ -11,7 +11,7 @@ const Home = () => {
      const [apps, setApps] = useState([]);
 
   useEffect(() => {
-    fetch("/public/frontpage.json") 
+    fetch("/frontpage.json") 
       .then((res) => res.json())
       .then((data) => setApps(data))
             .catch((err) => {

@@ -10,7 +10,7 @@ export default function Root() {
     <div>
       <Navbar />
 
-      {/* Loader overlay while navigating */}
+      
       {isLoading && (
          <div className="fixed inset-0 z-50 flex justify-center bg-base-200/70">
 <span className="loading loading-bars loading-xl"></span>
